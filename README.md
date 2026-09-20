@@ -56,3 +56,47 @@ User and expense data are temporarily stored in the browser using `localStorage`
 - Frontend and backend testing
 - Application deployment
 
+## 📂 Project Structure
+
+```text
+Expense-Tracker-Web-Application/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   └── pages/
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
+
+## 💻 Running the Project Locally
+
+Clone the repository and move into the frontend directory:
+
+```bash
+git clone <repository-url>
+cd Expense-Tracker-Web-Application/frontend
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local URL displayed by Vite in your browser.
+
+## 📖 About the Project
+
+This project was created to gain practical experience with React, frontend development, state management, responsive UI design, data persistence, and Git/GitHub.
+
+The project will continue to be developed into a full-stack web application.
